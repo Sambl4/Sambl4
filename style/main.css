@@ -1,0 +1,98 @@
+body {
+    background-color: #d5d5d5;
+    padding: 30px 10px;
+}
+
+ul {
+   list-style-type: none;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: darkgrey;
+}
+
+.searchBlock {
+    width: 50%;
+    margin: 0 auto 30px;
+}
+
+#searchInput {
+    width: 74%;
+    height: 30px;
+    border-radius: 7px 0 0 7px;
+    border-style: none;
+}
+
+#searchButton {
+    width: 24%;
+    height: 30px;
+    border-radius: 0 7px 7px 0;
+    border-style: none;
+    background-color: silver;
+}
+
+#pageBtnLeft, #pageBtnRight {
+    color: silver;
+}
+
+#searchButton:hover, .pageBtn:hover{
+    background-color: #999;
+}
+
+#searchButton:active, .pageBtn:active{
+    background-color: darkgrey;
+    color: lightgrey;
+}
+
+#contentBlock {
+    margin: 0 auto;
+    height: 420px;
+    overflow: hidden;
+}
+
+#resultList {
+    margin: 0 auto;
+    margin-left: 0;
+    overflow: hidden;
+}
+
+.resultBlock {
+    padding: 3px;
+    overflow: hidden;
+    float: left;
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-bottom: 50px;
+    width: 250px;
+    height: 400px;
+    background-color: silver;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 3px solid #f18719;
+    color: #555;
+}
+
+.resultPreview {
+    margin-top: 25px;
+    width: 100%;
+    height: auto;
+}
+
+#pageBtnBlock {
+    margin: 30px auto;
+    height: 25px;
+}
+
+.pageBtn {
+    margin: 0 10px;
+    width: 25px;
+    height:25px;
+    background-color: silver;
+    border-radius: 5px;
+    color: #555;
+    border-style: none;
+}
